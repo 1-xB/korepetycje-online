@@ -1,0 +1,14 @@
+
+CREATE DATABASE IF NOT EXISTS rezerwacje;
+
+USE rezerwacje;
+
+CREATE TABLE IF NOT EXISTS wizyty (
+  id INT UNSIGNED NOT NULL AUTO_INCREMENT,
+  imie_nazwisko VARCHAR(120) NOT NULL,
+  email VARCHAR(190) NOT NULL,
+  data_wizyty DATE NOT NULL,
+  godzina_wizyty TIME NOT NULL,
+  usluga VARCHAR(100) NOT NULL,
+  PRIMARY KEY (id)
+) 
