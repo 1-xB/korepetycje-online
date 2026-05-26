@@ -1,5 +1,7 @@
 <?php
-    
+
+$errors = [];
+
 ?>
 <!doctype html>
 <html lang="pl">
