@@ -22,7 +22,7 @@
 
         <div class="menu">
           <a class="menu-link active" href="index.php">Strona główna</a>
-          <a class="menu-link" href="rezerwaja.php">Rezerwacja</a>
+          <a class="menu-link" href="rezerwacja.php">Rezerwacja</a>
           <a class="menu-link" href="admin/lista_wizyt.php">Lista wizyt</a>
           <a class="menu-link" href="admin/login.php">Logowanie</a>
         </div>
@@ -40,7 +40,7 @@
         </p>
 
         <div class="buttons">
-          <a class="btn" href="rezerwaja.php">Zarezerwuj wizytę</a>
+          <a class="btn" href="rezerwacja.php">Zarezerwuj wizytę</a>
           <a class="btn btn-light" href="admin/lista_wizyt.php">Zobacz listę</a>
         </div>
       </div>
