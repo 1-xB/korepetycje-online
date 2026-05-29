@@ -196,3 +196,45 @@ form p{
   color: red;
   font-size: 14px;
 }
+table{
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 14px;
+  font-size: 14px;
+}
+
+table th,
+table td{
+  border: 1px solid #ddd;
+  padding: 10px 12px;
+  text-align: left;
+}
+
+table th{
+  background: #f0f4ff;
+  font-weight: bold;
+  color: #1d4ed8;
+}
+
+table tr:nth-child(even){
+  background: #f9f9f9;
+}
+
+table tr:hover{
+  background: #eef2ff;
+}
+
+.btn-usun{
+  display: inline-block;
+  background: #dc2626;
+  color: white;
+  padding: 6px 10px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.btn-usun:hover{
+  background: #b91c1c;
+}

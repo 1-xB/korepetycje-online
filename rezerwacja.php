@@ -27,7 +27,7 @@ $errors = [];
 
         <div class="menu">
           <a class="menu-link active" href="index.php">Strona główna</a>
-          <a class="menu-link" href="rezerwaja.php">Rezerwacja</a>
+          <a class="menu-link" href="rezerwacja.php">Rezerwacja</a>
           <a class="menu-link" href="admin/lista_wizyt.php">Lista wizyt</a>
           <a class="menu-link" href="admin/login.php">Logowanie</a>
         </div>
@@ -114,9 +114,8 @@ $errors = [];
                 $conn = mysqli_connect($host, $user, $password, $db)
                     or die("Nie udało połączyć się z bazą danych");
 
-                $sql = "INSERT INTO wizyty 
+                $sql = "INSERT INTO wizyty (imie_nazwisko, email, data_wizyty, godzina_wizyty, usluga)
                 VALUES (
-                    NULL,
                     '$imieNazwisko',
                     '$email',
                     '$data',
